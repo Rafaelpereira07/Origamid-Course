@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* --color-*: initial; */
+  /* --color-red-*: initial; */
+
+  --color-verde-200: #acef75;
+  --color-verde-300: #91ee77;
+  --color-verde-900: #16281f;
+  --color-verde-950: #0f1c15;
+
+  /* --color-lime-300: blue; */
+  /* --text-sm: 5rem; */
+  /* --text-sm--line-height: 10rem; */
+
+  /* --breakpoint-sm: 600px; */
+  /* --spacing-22: 5.5rem; */
+  /* --spacing: 4px; */
+
+  --animate-slide-in: slideIn 0.3s ease-in-out forwards;
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}
+
+.btn-azul {
+  background: var(--color-blue-400);
+}
