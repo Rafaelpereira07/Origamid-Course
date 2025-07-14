@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@layer components {
+  .btn {
+    @apply bg-lime-200 border-2 border-lime-400 text-lime-900 py-2 px-4 rounded-full hover:bg-lime-400 hover:text-lime-950
+  }
+}
