@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Tailwind CSS</title>
+  </head>
+
+  <body class="m-8">
+    <div class="grid gap-8 mt-8 max-w-lg -mx-auto">
+      <h2 class="uppercase font-bold tracking-wide mb-8">escolha a sua</h2>
+
+      <div>
+        <input class="peer mr-1" type="radio" name="produto" value="nimbus" id="nimbus" />
+        <label
+          class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 rounded-md hover:bg-slate-300 cursor-pointer peer-checked:bg-slate-400 mb-2"
+          for="nimbus"
+          >Nimbus Stark <span>R$ 4999</span></label
+        >
+        <ul class="hidden peer-checked:block bg-slate-200 p-2 rounded-md ml-5">
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>50 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+
+      <div>
+        <input class="peer mr-1" type="radio" name="produto" value="nebula" id="nebula" />
+        <label
+          class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 rounded-md hover:bg-slate-300 cursor-pointer peer-checked:bg-slate-400 mb-2"
+          for="nebula"
+          >Nebula Cosmic <span>R$ 3999</span></label
+        >
+        <ul class="hidden peer-checked:block bg-slate-200 p-2 rounded-md ml-5">
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>45 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+
+      <div>
+        <input class="peer mr-1" type="radio" name="produto" value="magic" id="magic" />
+        <label
+          class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 rounded-md hover:bg-slate-300 cursor-pointer peer-checked:bg-slate-400 mb-2"
+          for="magic"
+          >Magic Might <span>R$ 2499</span></label
+        >
+        <ul class="hidden peer-checked:block bg-slate-200 p-2 rounded-md ml-5">
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>40 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

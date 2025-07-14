@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Tailwind CSS</title>
+  </head>
+
+  <body class="m-8">
+    <button
+      class="bg-lime-400 hover:bg-lime-200 active:bg-lime-300 text-lime-950 border border-lime-300 px-4 py-2 rounded-md"
+    >
+      Comprar
+    </button>
+    <div class="my-4">
+      <input
+        type="text"
+        class="border-2 border-gray-200 bg-gray-100 rounded-md p-2 focus:outline-lime-400"
+      />
+      <button
+        class="bg-lime-400 hover:bg-lime-200 active:bg-lime-300 text-lime-950 border border-lime-300 px-4 py-2 rounded-md hover:disabled:bg-lime-400 disabled:grayscale"
+        disabled
+      >
+        Comprar
+      </button>
+    </div>
+
+    <ol class="list-decimal *:odd:bg-gray-200 *:even:bg-blue-200 *:first:text-red-700 *:last:text-green-700 *:p-2">
+      <li>Maria</li>
+      <li>Nina</li>
+      <li>Mara</li>
+      <li>Marcia</li>
+      <li>Mila</li>
+    </ol>
+
+  </body>
+</html>

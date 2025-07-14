@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Tailwind CSS</title>
+  </head>
+
+  <body class="m-8 dark:bg-neutral-950 !bg-white">
+    <div class="rounded-md max-w-md p-4 group
+    bg-neutral-200 hover:bg-neutral-800
+    dark:bg-neutral-800 dark:hover:bg-neutral-200
+    ">
+      <h1 class="text-xl font-serif font-bold mb-2
+      text-neutral-500 group-hover:text-neutral-200
+      dark:text-neutral-200 dark:group-hover:text-neutral-500
+      ">Aurora Boreal</h1>
+      <p class="
+      text-neutral-700 group-hover:text-neutral-300
+      dark:text-neutral-300 dark:group-hover:text-neutral-700
+      ">
+        Melhor período para observação da Aurora Boreal, o céu estará iluminado pelas estrelas.
+      </p>
+    </div>
+
+    <form action="" class="my-16">
+      <input class="border-2 border-gray-200 p-2 peer/cpf" type="text" placeholder="CPF">
+      <p class="hidden peer-focus/cpf:block">Use pontos e hífen</p>
+
+      <input class="border-2 border-gray-200 p-2 peer/email" type="text" placeholder="CPF">
+      <p class="hidden peer-focus/email:block">Use O email do trabalho</p>
+    </form>
+
+    <div class="flex gap-8 mb-4 p-4">
+      <div class="has-[.bg-green-500]:bg-gray-800   bg-gray-400 p-4 rounded-md size-40 relative">
+        <h2 class="text-white">Plano Ouro</h2>
+        <div class="recomendado absolute bg-green-500 text-green-950 p-1 rounded-md -top-4 -right-4">Recomendado</div>
+      </div>
+      <div class="has-[.bg-green-500]:bg-gray-800   bg-gray-400 p-4 rounded-md size-40 relative">
+        <h2 class="text-white">Plano Ouro</h2>
+      </div>
+    </div>
+  </body>
+</html>
