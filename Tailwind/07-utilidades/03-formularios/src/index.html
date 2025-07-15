@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Tailwind CSS</title>
+  </head>
+
+  <body class="m-8 accent-purple-400">
+    <form class="bg-gray-100 max-w-sm p-4 rounded-md mx-auto" action="">
+      <div class="grid gap-1 mb-4">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="border-2 border-gray-300 rounded-md p-2 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-100"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label class="flex items-center gap-2" for="termos">
+          <input type="radio" name="termos" id="termos" class="size-4" checked />
+          Li e aceito os termos.
+        </label>
+      </div>
+
+      <select
+        class="appearance-none border-2 border-gray-300 p-2 rounded-md focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-100 bg-[url('./assets/seta.svg')] bg-no-repeat pr-8 bg-[center_right_0.5rem] mb-4"
+      >
+        <option value="">Rio de Janeiro</option>
+        <option value="">São Paulo</option>
+        <option value="">Tocantins</option>
+      </select>
+
+      <input
+        type="file"
+        class="file:border-2 file:text-gray-700 text-gray-500 file:border-solid file:border-gray-400 file:rounded-md file:py-2 file:px-4 file:bg-gray-200 hover:file:bg-gray-300 focus:outline-none file:focus:border-yellow-400"
+      />
+    </form>
+  </body>
+</html>
