@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@utility text-sombra {
+  text-shadow: 10px 10px #000;
+  font-size: 2rem;
+}
+
+@utility animate-delay-1 {
+  animation-delay: 400ms;
+}
+
+/* .text-sombra {
+  text-shadow: 10px 10px #000;
+} */
