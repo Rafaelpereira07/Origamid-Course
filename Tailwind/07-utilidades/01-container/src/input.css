@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@utility container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  @media (width < 700px) {
+    padding: 0 0.5rem;
+    background: green;
+  }
+}
