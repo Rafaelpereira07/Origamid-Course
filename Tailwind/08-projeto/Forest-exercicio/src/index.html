@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Forest</title>
+  </head>
+  <body class="bg-verde-800 font-sans">
+    <div class="container mt-4 flex justify-center md:justify-start">
+      <div class="inline-flex items-center bg-verde-900 rounded-md">
+        <span class="size-2 block neon relative -left-1"></span>
+        <div class="inline-flex text-verde-300 divide-x-2 divide-verde-800 rounded-md">
+          <div class="px-4 py-2 capitalize">quarta</div>
+          <div class="px-4 py-2">29º</div>
+          <div class="px-4 py-2">🌤️</div>
+        </div>
+      </div>
+    </div>
+
+    <header class="container gap-8 py-8 flex justify-between items-center">
+      <a href="./">
+        <img src="./img/forest.svg" alt="" />
+      </a>
+      <nav class="hidden lg:block">
+        <ul class="text-white flex gap-8 text-xl items-center">
+          <li class="animate-slide-in opacity-0 animate-1">
+            <a
+              class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
+              href="#acomodacoes"
+              >Acomodações</a
+            >
+          </li>
+          <li class="animate-slide-in opacity-0 animate-1">
+            <a
+              class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
+              href="#eventos"
+              >Eventos</a
+            >
+          </li>
+          <li class="animate-slide-in opacity-0 animate-1">
+            <a
+              class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
+              href="#experiencias"
+              >Experiências</a
+            >
+          </li>
+          <li class="animate-slide-in opacity-0 animate-1">
+            <a
+              class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
+              href="#contato"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="inline-flex items-center lg:hidden btn py-1 gap-3">
+        Menu
+        <div class="flex flex-col gap-[3px]">
+          <span class="block h-0.5 w-4 bg-verde-950"></span>
+          <span class="block h-0.5 w-4 bg-verde-950"></span>
+          <span class="block h-0.5 w-4 bg-verde-950"></span>
+        </div>
+      </button>
+    </header>
+
+    <main class="container text-white">
+      <div
+        class="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12"
+      >
+        <img
+          src="./img/floresta.jpg"
+          alt=""
+          class="absolute inset-0 object-cover size-full -z-10"
+        />
+        <div
+          class="block sm:inline-flex items-center gap-8 py-4 sm:py-1 sm:pr-1 pl-4 bg-verde-950/60 sm:bg-verde-950 rounded-xl sm:rounded-full"
+        >
+          <p>vagas para dezembro abertas</p>
+          <button class="btn capitalize inline-flex items-center gap-2 max-sm:mt-2">
+            <a href="#reserva">reserve hoje</a><img src="./img/seta.svg" />
+          </button>
+        </div>
+
+        <h2 class="font-serif text-4xl sm:text-5xl max-w-[22rem] sm:max-w-md mt-8 mb-8 sm:mb-20">
+          Venha Experimentar a Vida na Floresta
+        </h2>
+
+        <div class="block sm:flex justify-between text-sm items-end">
+          <p class="max-sm:mb-4">Melhores locais para visitar <span class="border-b-2">2049</span></p>
+          <div>
+            <p class="uppercase mb-2">recomendado por</p>
+            <div class="flex items-center gap-4">
+              <img src="./img/parceiros/wildbeast.svg" class="w-28" />
+              <p>|</p>
+              <p class="capitalize">revista nacional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="container grid grid-cols-[2fr_3fr] items-end gap-8 radial-gradient text-white py-16">
+      <div class="bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain h-full content-end bg-bottom">
+        <h2 class="text-5xl capitalize font-serif">refúgio natural</h2>
+        <ul class="grid gap-4 text-xl mt-8 *:flex *:items-center *:gap-4">
+          <li><span class="h-0.5 w-6 neon rounded-full"></span>Experimente a natureza de perto</li>
+          <li><span class="h-0.5 w-6 neon rounded-full"></span>Conecte-se com a natureza</li>
+          <li><span class="h-0.5 w-6 neon rounded-full"></span>Desconecte-se do digital</li>
+          <li><span class="h-0.5 w-6 neon rounded-full"></span>Observe a vida selvagem</li>
+          <li><span class="h-0.5 w-6 neon rounded-full"></span>Escolha a sua cabine preferida</li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-[2fr_1fr] gap-8 text-sm">
+        <div class="col-span-full relative">
+          <img class="h-52 w-full object-cover rounded-xl" src="./img/casa1.jpg" alt="Casa 1" />
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">ruby</p>
+        </div>
+        <div class="size-full object-cover relative">
+          <img class="size-full object-cover rounded-xl" src="./img/casa2.jpg" alt="Casa 2" />
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">emerald</p>
+        </div>
+        <div class="size-full object-cover relative">
+          <img class="size-full object-cover rounded-xl" src="./img/casa3.jpg" alt="Casa 3" />
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">saphire</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-verde-900 py-16">
+      <div class="container">
+        <p class="uppercase text-sm tracking-widest text-verde-200 text-center">conecte-se com a natureza</p>
+        <h1 class="text-6xl font-serif capitalize text-white max-w-3xl text-center mx-auto  my-4">cada som, cada momento, uma nova descoberta</h1>
+        <div class="text-white">
+          <div class="bg-verde-800">
+            <p class="text-verde-300 font-serif">Lua Nova</p>
+            <p><span>23</span> Março 2049</p>
+            <p>Melhor período para observação astronômica. O Céu estará claro e as estrelas visíveis.</p>
+            <button class="btn">Reservar 23/03</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="pb-[50rem]""></div>
+  </body>
+</html>
