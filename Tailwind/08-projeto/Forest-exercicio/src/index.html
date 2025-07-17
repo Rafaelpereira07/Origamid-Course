@@ -38,21 +38,21 @@
               >Acomodações</a
             >
           </li>
-          <li class="animate-slide-in opacity-0 animate-1">
+          <li class="animate-slide-in opacity-0 animate-2">
             <a
               class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#eventos"
               >Eventos</a
             >
           </li>
-          <li class="animate-slide-in opacity-0 animate-1">
+          <li class="animate-slide-in opacity-0 animate-3">
             <a
               class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#experiencias"
               >Experiências</a
             >
           </li>
-          <li class="animate-slide-in opacity-0 animate-1">
+          <li class="animate-slide-in opacity-0 animate-4">
             <a
               class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#contato"
@@ -75,11 +75,7 @@
       <div
         class="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12"
       >
-        <img
-          src="./img/floresta.jpg"
-          alt=""
-          class="absolute inset-0 object-cover size-full -z-10"
-        />
+        <img src="./img/floresta.jpg" class="absolute inset-0 object-cover size-full -z-10" />
         <div
           class="block sm:inline-flex items-center gap-8 py-4 sm:py-1 sm:pr-1 pl-4 bg-verde-950/60 sm:bg-verde-950 rounded-xl sm:rounded-full"
         >
@@ -94,7 +90,9 @@
         </h2>
 
         <div class="block sm:flex justify-between text-sm items-end">
-          <p class="max-sm:mb-4">Melhores locais para visitar <span class="border-b-2">2049</span></p>
+          <p class="max-sm:mb-4">
+            Melhores locais para visitar <span class="border-b-2">2049</span>
+          </p>
           <div>
             <p class="uppercase mb-2">recomendado por</p>
             <div class="flex items-center gap-4">
@@ -107,10 +105,15 @@
       </div>
     </main>
 
-    <section class="container grid grid-cols-[2fr_3fr] items-end gap-8 radial-gradient text-white py-16">
-      <div class="bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain h-full content-end bg-bottom">
+    <section
+      id="acomodacoes"
+      class="container grid grid-cols-[2fr_3fr] items-end gap-8 radial-gradient text-white py-16"
+    >
+      <div
+        class="bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain h-full content-end bg-bottom"
+      >
         <h2 class="text-5xl capitalize font-serif">refúgio natural</h2>
-        <ul class="grid gap-4 text-xl mt-8 *:flex *:items-center *:gap-4">
+        <ul class="grid gap-4 text-xl mt-8 *:flex *:items-center *:gap-4 text-gray-200">
           <li><span class="h-0.5 w-6 neon rounded-full"></span>Experimente a natureza de perto</li>
           <li><span class="h-0.5 w-6 neon rounded-full"></span>Conecte-se com a natureza</li>
           <li><span class="h-0.5 w-6 neon rounded-full"></span>Desconecte-se do digital</li>
@@ -121,34 +124,291 @@
       <div class="grid grid-cols-[2fr_1fr] gap-8 text-sm">
         <div class="col-span-full relative">
           <img class="h-52 w-full object-cover rounded-xl" src="./img/casa1.jpg" alt="Casa 1" />
-          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">ruby</p>
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">
+            ruby
+          </p>
         </div>
         <div class="size-full object-cover relative">
           <img class="size-full object-cover rounded-xl" src="./img/casa2.jpg" alt="Casa 2" />
-          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">emerald</p>
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">
+            emerald
+          </p>
         </div>
         <div class="size-full object-cover relative">
           <img class="size-full object-cover rounded-xl" src="./img/casa3.jpg" alt="Casa 3" />
-          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">saphire</p>
+          <p class="uppercase absolute right-2 top-2 bg-verde-950/60 px-4 py-[5px] rounded-full">
+            saphire
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="bg-verde-900 py-16">
+    <section id="eventos" class="bg-verde-900 pt-16 pb-20">
       <div class="container">
-        <p class="uppercase text-sm tracking-widest text-verde-200 text-center">conecte-se com a natureza</p>
-        <h1 class="text-6xl font-serif capitalize text-white max-w-3xl text-center mx-auto  my-4">cada som, cada momento, uma nova descoberta</h1>
-        <div class="text-white">
-          <div class="bg-verde-800">
-            <p class="text-verde-300 font-serif">Lua Nova</p>
-            <p><span>23</span> Março 2049</p>
-            <p>Melhor período para observação astronômica. O Céu estará claro e as estrelas visíveis.</p>
-            <button class="btn">Reservar 23/03</button>
+        <p class="uppercase text-sm tracking-widest text-verde-200 text-center mb-4">
+          conecte-se com a natureza
+        </p>
+        <h1 class="text-6xl font-serif capitalize text-white max-w-3xl text-center mx-auto mb-8">
+          cada som, cada momento, uma nova descoberta
+        </h1>
+        <div class="text-white flex gap-8 *:flex-grow">
+          <div class="bg-verde-800 p-8 rounded-xl">
+            <p class="text-verde-300 font-serif text-2xl">Lua Nova</p>
+            <p class="text-xl my-4"><span class="block font-serif text-5xl">23</span> Março 2049</p>
+            <p class="max-w-[22.3rem] text-gray-300">
+              Melhor período para observação astronômica. O Céu estará claro e as estrelas visíveis.
+            </p>
+            <button class="btn mt-4">Reservar 23/03</button>
+          </div>
+
+          <div class="bg-verde-800 p-8 rounded-xl">
+            <p class="text-verde-300 font-serif text-2xl">Aurora Boreal</p>
+            <p class="text-xl my-4"><span class="block font-serif text-5xl">15</span> Abril 2049</p>
+            <p class="max-w-[22.3rem] text-gray-300">
+              Melhor período para observação da Aurora Boreal, o céu estará iluminado pelas
+              estrelas.
+            </p>
+            <button class="btn mt-4">Reservar 15/04</button>
+          </div>
+
+          <div class="bg-verde-800 p-8 rounded-xl">
+            <p class="text-verde-300 font-serif text-2xl">Chuva de Meteoros</p>
+            <p class="text-xl my-4">
+              <span class="block font-serif text-5xl">18</span> Agosto 2049
+            </p>
+            <p class="max-w-[22.3rem] text-gray-300">
+              Melhor período para observação da Chuva de Meteoros, o céu estará iluminado pelas
+              estrelas.
+            </p>
+            <button class="btn mt-4">Reservar 18/08</button>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="pb-[50rem]""></div>
+    <section id="experiencias" class="container grid grid-cols-2 gap-8 text-white mt-16">
+      <div class="bg-verde-900 p-8 rounded-xl">
+        <p class="uppercase text-verde-200 text-sm tracking-widest mb-4">experiências exclusivas</p>
+        <h2 class="capitalize text-5xl font-serif mb-8">escolha sua próxima aventura</h2>
+        <ul class="flex flex-col gap-8">
+          <li>
+            <p class="flex items-center gap-4 text-xl *:hover:w-10">
+              <span class="h-0.5 w-6 neon transition-[width]"></span>Observação Noturna
+            </p>
+            <p class="ml-10 text-gray-400">
+              Explore a vida selvagem em seu habitat natural sob as estrelas.
+            </p>
+          </li>
+          <li>
+            <p class="flex items-center gap-4 text-xl *:hover:w-10">
+              <span class="h-0.5 w-6 neon transition-[width]"></span>Vida Selvagem
+            </p>
+            <p class="ml-10 text-gray-400">Observe a vida selvagem em seu habitat natural.</p>
+          </li>
+          <li>
+            <p class="flex items-center gap-4 text-xl *:hover:w-10">
+              <span class="h-0.5 w-6 neon transition-[width]"></span>Canoagem
+            </p>
+            <p class="ml-10 text-gray-400">
+              Conquiste novos horizontes com nossa equipe especializada.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div class="group relative rounded-xl cursor-pointer overflow-hidden">
+          <img
+            class="size-full object-cover group-hover:scale-110 transition-transform"
+            src="./img/canoagem.jpg"
+          />
+          <div
+            class="absolute flex items-end p-4 inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 transition-opacity group-hover:opacity-100"
+          >
+            <span>Canoagem</span>
+          </div>
+        </div>
+        <div class="group relative row-span-2 cursor-pointer rounded-xl overflow-hidden">
+          <img
+            class="size-full object-cover group-hover:scale-110 transition-transform"
+            src="./img/observacao-noturna.jpg"
+          />
+          <div
+            class="absolute flex items-end p-4 inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 transition-opacity group-hover:opacity-100"
+          >
+            <span>Observação Noturna</span>
+          </div>
+        </div>
+        <div class="group relative rounded-xl cursor-pointer overflow-hidden">
+          <img
+            class="size-full object-cover group-hover:scale-110 transition-transform"
+            src="./img/vida-selvagem.jpg"
+          />
+          <div
+            class="absolute flex items-end p-4 inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 transition-opacity group-hover:opacity-100"
+          >
+            <span>Vida Selvagem</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-center bg-contain my-16 pt-16 pb-8"
+    >
+      <p class="uppercase text-verde-200 text-sm tracking-widest text-center mb-4">ciclo natural</p>
+      <h1 class="text-6xl text-white font-serif text-center">Ritmo da Floresta</h1>
+      <div class="flex gap-8 py-8">
+        <div class="bg-verde-900/95 rounded-xl p-8 hover:-translate-y-2 transition-all">
+          <p class="size-10 neon rounded-full flex items-center justify-center">
+            <img src="./img/manha.svg" />
+          </p>
+          <h3 class="text-2xl text-white font-serif mt-4">Amanhecer</h3>
+          <p class="text-gray-400 my-4 max-w-[26rem]">
+            Desperte com o canto dos pássaros e participe das nossas caminhadas ao ar livre.
+          </p>
+          <p class="text-verde-300">05:40 - 07:00</p>
+        </div>
+
+        <div
+          class="bg-verde-900/95 rounded-xl p-8 translate-y-12 hover:translate-y-10 transition-all"
+        >
+          <p class="size-10 neon rounded-full flex items-center justify-center">
+            <img src="./img/dia.svg" />
+          </p>
+          <h3 class="text-2xl text-white font-serif mt-4">Meio-dia</h3>
+          <p class="text-gray-400 my-4 max-w-[26rem]">
+            Explore nossas trilhas sombreadas e desfrute de um piquenique gourmet na natureza.
+          </p>
+          <p class="text-verde-300">12:00 - 14:00</p>
+        </div>
+
+        <div class="bg-verde-900/95 rounded-xl p-8 hover:-translate-y-2 transition-all">
+          <p class="size-10 neon rounded-full flex items-center justify-center">
+            <img src="./img/noite.svg" />
+          </p>
+          <h3 class="text-2xl text-white font-serif mt-4">Anoitecer</h3>
+          <p class="text-gray-400 my-4 max-w-[26rem]">
+            Termine seu dia com nossa sessão de observação de estrelas.
+          </p>
+          <p class="text-verde-300">19:00 - 21:00</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container grid grid-cols-2 gap-8">
+      <div>
+        <div>
+          <h2 class="text-4xl text-verde-300 font-serif">Nossos Contatos</h2>
+          <p class="text-gray-200 mt-4">Tem interesse em passar uma temporada na Forest?</p>
+          <p class="text-gray-200">Entre em contato com a gente por telefone ou email.</p>
+        </div>
+        <ul class="flex flex-col gap-10 mt-14">
+          <li>
+            <h4
+              class="text-2xl text-verde-300 font-serif relative before:h-0.5 before:w-6 before:neon before:inline-block before:absolute before:-top-[9px]"
+            >
+              Base
+            </h4>
+            <p class="text-gray-300 mt-2">Rua da Mata, 123 - Floresta Nacional - RJ</p>
+          </li>
+          <li>
+            <h4
+              class="text-2xl text-verde-300 font-serif relative before:h-0.5 before:w-6 before:neon before:inline-block before:absolute before:-top-[9px]"
+            >
+              Email
+            </h4>
+            <p class="text-gray-300 mt-2">contato@forest.com</p>
+          </li>
+          <li>
+            <h4
+              class="text-2xl text-verde-300 font-serif relative before:h-0.5 before:w-6 before:neon before:inline-block before:absolute before:-top-[9px]"
+            >
+              Telefone
+            </h4>
+            <p class="text-gray-300 mt-2">21 99999-9999</p>
+          </li>
+        </ul>
+      </div>
+      <form class="grid gap-4 bg-verde-900 rounded-xl text-white p-8 shadow-2xl">
+        <div>
+          <label class="block mb-1 capitalize" for="nome">nome</label>
+          <input class="input w-full" type="text" name="nome" id="nome" />
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block mb-1 capitalize" for="email">email</label>
+            <input class="input w-full" type="text" name="email" id="email" />
+          </div>
+          <div>
+            <label class="block mb-1 capitalize" for="telefone">telefone</label>
+            <input
+              class="input w-full"
+              type="text"
+              name="telefone"
+              id="telefone"
+              placeholder="(21) 00000-0000"
+            />
+          </div>
+        </div>
+        <div>
+          <label class="block mb-1 capitalize" for="mensagem">mensagem</label>
+          <textarea
+            class="input w-full resize-none"
+            name="mensagem"
+            rows="5"
+            id="mensagem"
+          ></textarea>
+        </div>
+
+        <button class="capitalize btn place-self-start -mt-[7px]">enviar email</button>
+      </form>
+    </section>
+
+    <section class="container mt-16">
+      <span class="block h-0.5 w-full bg-verde-900 mt-8"></span>
+      <ul class="flex gap-16 *:*:max-h-8 mx-4 my-12">
+        <li><img src="./img/parceiros/caravan.svg" alt="Parceiro" /></li>
+        <li><img src="./img/parceiros/dogs.svg" alt="Parceiro" /></li>
+        <li><img src="./img/parceiros/wildbeast.svg" alt="Parceiro" /></li>
+        <li><img src="./img/parceiros/lescone.svg" alt="Parceiro" /></li>
+        <li><img src="./img/parceiros/surfbot.svg" alt="Parceiro" /></li>
+      </ul>
+      <span class="block h-0.5 w-full bg-verde-900 mt-8"></span>
+    </section>
+
+    <footer class="container mt-16 mb-8">
+      <div class="grid grid-cols-2 bg-verde-900 rounded-2xl p-12">
+        <div class="flex gap-12">
+          <div>
+            <h4 class="text-xl text-white font-serif">Endereço</h4>
+            <ul class="mt-4 text-gray-400">
+              <li>Rua da Mata, 123</li>
+              <li>Floresta Nacional</li>
+              <li>Rio de Janeiro, RJ</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl text-white font-serif">Contato</h4>
+            <ul class="mt-4 text-gray-400">
+              <li>contato@forest.com</li>
+              <li>+55 21 9999-9999</li>
+            </ul>
+          </div>
+        </div>
+        <div class="justify-self-end">
+          <img src="./img/forest.svg" alt="" />
+          <p class="mt-4 text-gray-400">Conecte-se com a natureza</p>
+        </div>
+      </div>
+      <div class="flex items-center justify-between text-gray-400 text-sm mt-8">
+        <p>© 2024 Forest. Todos os direitos reservados.</p>
+        <ul class="flex gap-8">
+          <li class="hover:text-verde-300"><a href="#">Instagram</a></li>
+          <li class="hover:text-verde-300"><a href="#">LinkedIn</a></li>
+          <li class="hover:text-verde-300"><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
