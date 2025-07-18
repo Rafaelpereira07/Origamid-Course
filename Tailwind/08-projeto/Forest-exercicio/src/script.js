@@ -25,6 +25,6 @@ mobileBtn.addEventListener("click", () => {
 });
 
 mobileMenu.addEventListener("click", () => {
-  mobileMenu.classList.add("hidden");
-  mobileMenu.classList.remove("flex");
+  mobileMenu.classList.toggle("hidden");
+  mobileMenu.classList.toggle("flex");
 });
