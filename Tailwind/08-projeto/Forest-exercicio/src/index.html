@@ -107,12 +107,12 @@
 
     <section
       id="acomodacoes"
-      class="container grid grid-cols-[2fr_3fr] items-end gap-8 radial-gradient text-white py-16"
+      class="container grid lg:grid-cols-[2fr_3fr] items-end gap-8 radial-gradient text-white py-16"
     >
       <div
-        class="bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain h-full content-end bg-bottom"
+        class="bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain h-full content-end lg:bg-bottom"
       >
-        <h2 class="text-5xl capitalize font-serif">refúgio natural</h2>
+        <h2 class="text-4xl lg:text-5xl capitalize font-serif">refúgio natural</h2>
         <ul class="grid gap-4 text-xl mt-8 *:flex *:items-center *:gap-4 text-gray-200">
           <li><span class="h-0.5 w-6 neon rounded-full"></span>Experimente a natureza de perto</li>
           <li><span class="h-0.5 w-6 neon rounded-full"></span>Conecte-se com a natureza</li>
@@ -148,11 +148,13 @@
         <p class="uppercase text-sm tracking-widest text-verde-200 text-center mb-4">
           conecte-se com a natureza
         </p>
-        <h1 class="text-6xl font-serif capitalize text-white max-w-3xl text-center mx-auto mb-8">
+        <h1 class="text-4xl sm:text-6xl font-serif capitalize text-white max-w-md sm:max-w-3xl text-center mx-auto mb-8">
           cada som, cada momento, uma nova descoberta
         </h1>
-        <div class="text-white flex gap-8 *:flex-grow">
-          <div class="bg-verde-800 p-8 rounded-xl">
+        <div
+          class="text-white flex gap-4 sm:gap-8 *:flex-grow overflow-x-auto snap-x snap-mandatory *:min-w-80"
+        >
+          <div class="snap-center bg-verde-800 p-8 rounded-xl">
             <p class="text-verde-300 font-serif text-2xl">Lua Nova</p>
             <p class="text-xl my-4"><span class="block font-serif text-5xl">23</span> Março 2049</p>
             <p class="max-w-[22.3rem] text-gray-300">
@@ -161,7 +163,7 @@
             <button class="btn mt-4">Reservar 23/03</button>
           </div>
 
-          <div class="bg-verde-800 p-8 rounded-xl">
+          <div class="snap-center bg-verde-800 p-8 rounded-xl">
             <p class="text-verde-300 font-serif text-2xl">Aurora Boreal</p>
             <p class="text-xl my-4"><span class="block font-serif text-5xl">15</span> Abril 2049</p>
             <p class="max-w-[22.3rem] text-gray-300">
@@ -171,7 +173,7 @@
             <button class="btn mt-4">Reservar 15/04</button>
           </div>
 
-          <div class="bg-verde-800 p-8 rounded-xl">
+          <div class="snap-center bg-verde-800 p-8 rounded-xl">
             <p class="text-verde-300 font-serif text-2xl">Chuva de Meteoros</p>
             <p class="text-xl my-4">
               <span class="block font-serif text-5xl">18</span> Agosto 2049
@@ -186,10 +188,10 @@
       </div>
     </section>
 
-    <section id="experiencias" class="container grid grid-cols-2 gap-8 text-white mt-16">
+    <section id="experiencias" class="container grid sm:grid-cols-2 gap-8 text-white mt-16">
       <div class="bg-verde-900 p-8 rounded-xl">
         <p class="uppercase text-verde-200 text-sm tracking-widest mb-4">experiências exclusivas</p>
-        <h2 class="capitalize text-5xl font-serif mb-8">escolha sua próxima aventura</h2>
+        <h2 class="capitalize text-3xl sm:text-5xl font-serif mb-8">escolha sua próxima aventura</h2>
         <ul class="flex flex-col gap-8">
           <li>
             <p class="flex items-center gap-4 text-xl *:hover:w-10">
@@ -254,41 +256,41 @@
     </section>
 
     <section
-      class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-center bg-contain my-16 pt-16 pb-8"
+      class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-center bg-contain  sm:my-16 pt-16 pb-8"
     >
       <p class="uppercase text-verde-200 text-sm tracking-widest text-center mb-4">ciclo natural</p>
-      <h1 class="text-6xl text-white font-serif text-center">Ritmo da Floresta</h1>
-      <div class="flex gap-8 py-8">
-        <div class="bg-verde-900/95 rounded-xl p-8 hover:-translate-y-2 transition-all">
+      <h1 class="text-4xl sm:text-6xl text-white font-serif text-center">Ritmo da Floresta</h1>
+      <div class="flex max-sm:flex-col gap-4 sm:gap-8 py-8">
+        <div class="bg-verde-900/95 rounded-xl p-8 sm:hover:-translate-y-2 sm:transition-all">
           <p class="size-10 neon rounded-full flex items-center justify-center">
             <img src="./img/manha.svg" />
           </p>
           <h3 class="text-2xl text-white font-serif mt-4">Amanhecer</h3>
-          <p class="text-gray-400 my-4 max-w-[26rem]">
+          <p class="text-gray-400 my-4 sm:max-w-[26rem]">
             Desperte com o canto dos pássaros e participe das nossas caminhadas ao ar livre.
           </p>
           <p class="text-verde-300">05:40 - 07:00</p>
         </div>
 
         <div
-          class="bg-verde-900/95 rounded-xl p-8 translate-y-12 hover:translate-y-10 transition-all"
+          class="bg-verde-900/95 rounded-xl p-8 sm:translate-y-12 sm:hover:translate-y-10 sm:transition-all"
         >
           <p class="size-10 neon rounded-full flex items-center justify-center">
             <img src="./img/dia.svg" />
           </p>
           <h3 class="text-2xl text-white font-serif mt-4">Meio-dia</h3>
-          <p class="text-gray-400 my-4 max-w-[26rem]">
+          <p class="text-gray-400 my-4 sm:max-w-[26rem]">
             Explore nossas trilhas sombreadas e desfrute de um piquenique gourmet na natureza.
           </p>
           <p class="text-verde-300">12:00 - 14:00</p>
         </div>
 
-        <div class="bg-verde-900/95 rounded-xl p-8 hover:-translate-y-2 transition-all">
+        <div class="bg-verde-900/95 rounded-xl p-8 sm:hover:-translate-y-2 sm:transition-all">
           <p class="size-10 neon rounded-full flex items-center justify-center">
             <img src="./img/noite.svg" />
           </p>
           <h3 class="text-2xl text-white font-serif mt-4">Anoitecer</h3>
-          <p class="text-gray-400 my-4 max-w-[26rem]">
+          <p class="text-gray-400 my-4 sm:max-w-[26rem]">
             Termine seu dia com nossa sessão de observação de estrelas.
           </p>
           <p class="text-verde-300">19:00 - 21:00</p>
@@ -296,7 +298,7 @@
       </div>
     </section>
 
-    <section id="contato" class="container grid grid-cols-2 gap-8">
+    <section id="contato" class="container grid sm:grid-cols-2 gap-8">
       <div>
         <div>
           <h2 class="text-4xl text-verde-300 font-serif">Nossos Contatos</h2>
@@ -330,12 +332,12 @@
           </li>
         </ul>
       </div>
-      <form class="grid gap-4 bg-verde-900 rounded-xl text-white p-8 shadow-2xl">
+      <form class="grid gap-4 bg-verde-900 rounded-xl text-white p-4 sm:p-8 shadow-2xl">
         <div>
           <label class="block mb-1 capitalize" for="nome">nome</label>
           <input class="input w-full" type="text" name="nome" id="nome" />
         </div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid sm:grid-cols-2 gap-4">
           <div>
             <label class="block mb-1 capitalize" for="email">email</label>
             <input class="input w-full" type="text" name="email" id="email" />
@@ -366,20 +368,20 @@
     </section>
 
     <section class="container mt-16">
-      <span class="block h-0.5 w-full bg-verde-900 mt-8"></span>
-      <ul class="flex gap-16 *:*:max-h-8 mx-4 my-12">
+      <span class="sm:block h-0.5 w-full bg-verde-900 mt-8"></span>
+      <ul class="flex max-sm:flex-col max-sm:items-center max-sm:*:p-4  sm:gap-16 *:*:max-h-8 mx-4 my-12">
         <li><img src="./img/parceiros/caravan.svg" alt="Parceiro" /></li>
-        <li><img src="./img/parceiros/dogs.svg" alt="Parceiro" /></li>
-        <li><img src="./img/parceiros/wildbeast.svg" alt="Parceiro" /></li>
-        <li><img src="./img/parceiros/lescone.svg" alt="Parceiro" /></li>
-        <li><img src="./img/parceiros/surfbot.svg" alt="Parceiro" /></li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/dogs.svg" alt="Parceiro" /></li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/wildbeast.svg" alt="Parceiro" /></li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/lescone.svg" alt="Parceiro" /></li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/surfbot.svg" alt="Parceiro" /></li>
       </ul>
-      <span class="block h-0.5 w-full bg-verde-900 mt-8"></span>
+      <span class="sm:block h-0.5 w-full bg-verde-900 mt-8"></span>
     </section>
 
     <footer class="container mt-16 mb-8">
-      <div class="grid grid-cols-2 bg-verde-900 rounded-2xl p-12">
-        <div class="flex gap-12">
+      <div class="grid sm:grid-cols-2 bg-verde-900 max-sm:gap-6 rounded-2xl p-6 sm:p-12">
+        <div class="flex max-sm:flex-col gap-6 sm:gap-12">
           <div>
             <h4 class="text-xl text-white font-serif">Endereço</h4>
             <ul class="mt-4 text-gray-400">
@@ -396,12 +398,12 @@
             </ul>
           </div>
         </div>
-        <div class="justify-self-end">
+        <div class="sm:justify-self-end">
           <img src="./img/forest.svg" alt="" />
           <p class="mt-4 text-gray-400">Conecte-se com a natureza</p>
         </div>
       </div>
-      <div class="flex items-center justify-between text-gray-400 text-sm mt-8">
+      <div class="flex max-sm:flex-col-reverse max-sm:gap-8 items-center sm:justify-between text-gray-400 text-sm mt-8">
         <p>© 2024 Forest. Todos os direitos reservados.</p>
         <ul class="flex gap-8">
           <li class="hover:text-verde-300"><a href="#">Instagram</a></li>
