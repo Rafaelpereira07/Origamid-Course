@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,15 +12,16 @@
     />
     <link rel="stylesheet" href="./output.css" />
     <title>Forest</title>
+    <script src="./script.js" defer></script>
   </head>
   <body class="bg-verde-800 font-sans">
     <div class="container mt-4 flex justify-center md:justify-start">
       <div class="inline-flex items-center bg-verde-900 rounded-md">
         <span class="size-2 block neon relative -left-1"></span>
         <div class="inline-flex text-verde-300 divide-x-2 divide-verde-800 rounded-md">
-          <div class="px-4 py-2 capitalize">quarta</div>
-          <div class="px-4 py-2">29º</div>
-          <div class="px-4 py-2">🌤️</div>
+          <div id="dia" class="px-4 py-2 capitalize"></div>
+          <div id="temperatura" class="px-4 py-2"></div>
+          <div id="tempo" class="px-4 py-2"></div>
         </div>
       </div>
     </div>
@@ -29,8 +30,14 @@
       <a href="./">
         <img src="./img/forest.svg" alt="" />
       </a>
-      <nav class="hidden lg:block">
-        <ul class="text-white flex gap-8 text-xl items-center">
+      <nav
+        id="mobileMenu"
+        class="flex lg:block items-center z-40 max-lg:fixed max-lg:w-full max-lg:inset-0"
+      >
+        <div class="fixed lg:hidden inset-0 bg-verde-950/40 backdrop-blur-md"></div>
+        <ul
+          class="text-white flex lg:gap-8 text-xl lg:items-center max-lg:flex-col max-lg:divide-y-2 divide-white/10 max-lg:w-full max-lg:px-8 max-lg:text-2xl"
+        >
           <li class="animate-slide-in opacity-0 animate-1">
             <a
               class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
@@ -61,7 +68,7 @@
           </li>
         </ul>
       </nav>
-      <button class="inline-flex items-center lg:hidden btn py-1 gap-3">
+      <button id="mobileBtn" class="inline-flex items-center lg:hidden btn py-1 gap-3">
         Menu
         <div class="flex flex-col gap-[3px]">
           <span class="block h-0.5 w-4 bg-verde-950"></span>
@@ -75,13 +82,24 @@
       <div
         class="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12"
       >
-        <img src="./img/floresta.jpg" class="absolute inset-0 object-cover size-full -z-10" />
+        <!-- <img src="./img/floresta.jpg" class="absolute inset-0 object-cover size-full -z-10" /> -->
+        <video
+          id="video"
+          class="absolute inset-0 size-full object-cover -z-10 animate-fade-in"
+          muted
+          autoplay
+          playsinline
+          loop
+          width="1280"
+          height="720"
+          src="./img/video_sol.mp4"
+        ></video>
         <div
           class="block sm:inline-flex items-center gap-8 py-4 sm:py-1 sm:pr-1 pl-4 bg-verde-950/60 sm:bg-verde-950 rounded-xl sm:rounded-full"
         >
           <p>vagas para dezembro abertas</p>
           <button class="btn capitalize inline-flex items-center gap-2 max-sm:mt-2">
-            <a href="#reserva">reserve hoje</a><img src="./img/seta.svg" />
+            <a href="#contato">reserve hoje</a><img src="./img/seta.svg" />
           </button>
         </div>
 
@@ -148,7 +166,9 @@
         <p class="uppercase text-sm tracking-widest text-verde-200 text-center mb-4">
           conecte-se com a natureza
         </p>
-        <h1 class="text-4xl sm:text-6xl font-serif capitalize text-white max-w-md sm:max-w-3xl text-center mx-auto mb-8">
+        <h1
+          class="text-4xl sm:text-6xl font-serif capitalize text-white max-w-md sm:max-w-3xl text-center mx-auto mb-8"
+        >
           cada som, cada momento, uma nova descoberta
         </h1>
         <div
@@ -191,7 +211,9 @@
     <section id="experiencias" class="container grid sm:grid-cols-2 gap-8 text-white mt-16">
       <div class="bg-verde-900 p-8 rounded-xl">
         <p class="uppercase text-verde-200 text-sm tracking-widest mb-4">experiências exclusivas</p>
-        <h2 class="capitalize text-3xl sm:text-5xl font-serif mb-8">escolha sua próxima aventura</h2>
+        <h2 class="capitalize text-3xl sm:text-5xl font-serif mb-8">
+          escolha sua próxima aventura
+        </h2>
         <ul class="flex flex-col gap-8">
           <li>
             <p class="flex items-center gap-4 text-xl *:hover:w-10">
@@ -256,7 +278,7 @@
     </section>
 
     <section
-      class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-center bg-contain  sm:my-16 pt-16 pb-8"
+      class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-center bg-contain sm:my-16 pt-16 pb-8"
     >
       <p class="uppercase text-verde-200 text-sm tracking-widest text-center mb-4">ciclo natural</p>
       <h1 class="text-4xl sm:text-6xl text-white font-serif text-center">Ritmo da Floresta</h1>
@@ -369,12 +391,22 @@
 
     <section class="container mt-16">
       <span class="sm:block h-0.5 w-full bg-verde-900 mt-8"></span>
-      <ul class="flex max-sm:flex-col max-sm:items-center max-sm:*:p-4  sm:gap-16 *:*:max-h-8 mx-4 my-12">
+      <ul
+        class="flex max-sm:flex-col max-sm:items-center max-sm:*:p-4 sm:gap-16 *:*:max-h-8 mx-4 my-12"
+      >
         <li><img src="./img/parceiros/caravan.svg" alt="Parceiro" /></li>
-        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/dogs.svg" alt="Parceiro" /></li>
-        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/wildbeast.svg" alt="Parceiro" /></li>
-        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/lescone.svg" alt="Parceiro" /></li>
-        <li class="max-sm:border-t-2 max-sm:border-verde-900"><img src="./img/parceiros/surfbot.svg" alt="Parceiro" /></li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900">
+          <img src="./img/parceiros/dogs.svg" alt="Parceiro" />
+        </li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900">
+          <img src="./img/parceiros/wildbeast.svg" alt="Parceiro" />
+        </li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900">
+          <img src="./img/parceiros/lescone.svg" alt="Parceiro" />
+        </li>
+        <li class="max-sm:border-t-2 max-sm:border-verde-900">
+          <img src="./img/parceiros/surfbot.svg" alt="Parceiro" />
+        </li>
       </ul>
       <span class="sm:block h-0.5 w-full bg-verde-900 mt-8"></span>
     </section>
@@ -403,7 +435,9 @@
           <p class="mt-4 text-gray-400">Conecte-se com a natureza</p>
         </div>
       </div>
-      <div class="flex max-sm:flex-col-reverse max-sm:gap-8 items-center sm:justify-between text-gray-400 text-sm mt-8">
+      <div
+        class="flex max-sm:flex-col-reverse max-sm:gap-8 items-center sm:justify-between text-gray-400 text-sm mt-8"
+      >
         <p>© 2024 Forest. Todos os direitos reservados.</p>
         <ul class="flex gap-8">
           <li class="hover:text-verde-300"><a href="#">Instagram</a></li>
