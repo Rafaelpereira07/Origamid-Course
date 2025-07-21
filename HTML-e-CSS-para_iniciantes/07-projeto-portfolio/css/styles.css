@@ -1,4 +1,2 @@
-.item {
-  display: flex;
-  justify-content: space-between;
-}
+@import "./global.css";
+@import "./header.css";
