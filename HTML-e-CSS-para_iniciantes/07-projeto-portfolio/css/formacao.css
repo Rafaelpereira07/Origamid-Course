@@ -1,0 +1,145 @@
+#formacao {
+  background: var(--c13);
+  margin-top: 60px;
+  padding: 110px 0 120px 0;
+}
+
+.formacao {
+  display: flex;
+  gap: 118px;
+}
+
+.formacao strong {
+  color: #fff;
+}
+
+.formacao h2 {
+  font-size: 144px;
+  line-height: 144px;
+  line-break: anywhere;
+  max-width: 378px;
+  text-transform: uppercase;
+}
+
+.formacao-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.formacao-content > p {
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 523px;
+}
+
+.formacao-cursos {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 30px;
+}
+
+.formacao-curso {
+  background: #090909;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.formacao-curso h5,
+.formacao-curso h4 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--c6);
+  text-transform: uppercase;
+}
+
+.formacao-curso h5::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: var(--gradient);
+  left: -24px;
+  width: 4px;
+  height: 20px;
+}
+
+.formacao-curso h5 {
+  margin-bottom: 10px;
+}
+
+.formacao-curso h4 {
+  font-size: 18px;
+}
+
+.formacao-cursos .formacao-curso:nth-child(2) h4:nth-child(3) {
+  text-transform: capitalize;
+}
+
+.formacao-curso p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.formacao-curso:nth-child(1) p {
+  max-width: 119px;
+}
+
+.formacao-curso:nth-child(2) p {
+  max-width: 56px;
+}
+
+.formacao-curso:nth-child(3) p {
+  max-width: 132px;
+}
+
+.formacao-infos h4 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--c7);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.formacao-infos h4::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  background-image: url("../_img/cursos.svg");
+}
+
+.formacao-infos:nth-child(4) h4::before {
+  background-image: url("../_img/idiomas.svg");
+}
+
+.formacao-infos p {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.formacao-infos:nth-child(3) p{
+  justify-content: space-between;
+}
+
+.formacao span {
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--c7);
+}
