@@ -1,0 +1,95 @@
+#experiencia {
+  display: flex;
+  gap: 176px;
+  margin-top: 120px;
+}
+
+#experiencia h2 {
+  font-size: 144px;
+  line-height: 144px;
+  line-break: anywhere;
+  max-width: 329px;
+  text-transform: uppercase;
+}
+
+.exp-content > p {
+  font-size: 24px;
+  max-width: 560px;
+  margin-top: 14px;
+  margin-bottom: 60px;
+}
+
+.exp-content strong {
+  color: var(--c13);
+}
+
+.exp-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-item {
+  background: var(--c1);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--c2);
+}
+
+.item-proj {
+  position: relative;
+}
+
+.exp-item h3 {
+  display: flex;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.item-proj h3::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -24px;
+  width: 4px;
+  height: 20px;
+  background: var(--gradient);
+}
+
+.item-proj span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--c10);
+  position: absolute;
+  left: -90px;
+}
+
+.exp-lista .exp-item:nth-child(2) span {
+  left: -110px;
+}
+
+.item-proj p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--c10);
+  max-width: 325px;
+}
+
+.item-linguagem {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 210px;
+}
+
+.item-linguagem li {
+  background: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

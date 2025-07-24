@@ -1,0 +1,31 @@
+:root {
+  --c1: #f5f5f5;
+  --c2: #f0f0f0;
+  --c3: #e0e0e0;
+  --c4: #cccccc;
+  --c5: #b8b8b8;
+  --c6: #a3a3a3;
+  --c7: #8f8f8f;
+  --c8: #7a7a7a;
+  --c9: #666666;
+  --c10: #525252;
+  --c11: #3d3d3d;
+  --c12: #292929;
+  --c13: #141414;
+  --gradient: linear-gradient(#b6f829 0%, #67dd0a 100%);
+  --gradient-2: linear-gradient(#b629f8 0%, #800add 100%);
+}
+
+.c1 { color: var(--c1); }
+.c2 { color: var(--c2); }
+.c3 { color: var(--c3); }
+.c4 { color: var(--c4); }
+.c5 { color: var(--c5); }
+.c6 { color: var(--c6); }
+.c7 { color: var(--c7); }
+.c8 { color: var(--c8); }
+.c9 { color: var(--c9); }
+.c10 { color: var(--c10); }
+.c11 { color: var(--c11); }
+.c12 { color: var(--c12); }
+.c13 { color: var(--c13); }
