@@ -1,0 +1,40 @@
+#contato {
+  background: #000;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+#contato img {
+  position: absolute;
+  top: -60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 429px;
+  color: var(--c4);
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.direitos {
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--c7);
+  margin-top: 120px;
+}
