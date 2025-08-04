@@ -4,10 +4,10 @@
 
 <ul aria-label="Completos">
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🎨 Tailwind CSS</strong></li>
+  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🧱 HTML e CSS para Iniciantes</strong></li>
 </ul>
 
 <ul aria-label="Cursando">
-  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🧱 HTML e CSS para Iniciantes</strong></li>
 </ul>
 
 <ul aria-label="Futuros">
