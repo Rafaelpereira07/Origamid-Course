@@ -5,10 +5,10 @@
 <ul aria-label="Completos">
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🎨 Tailwind CSS</strong></li>
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🧱 HTML e CSS para Iniciantes</strong></li>
+  <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🧠 JavaScript Completo ES6</strong></li>
 </ul>
 
 <ul aria-label="Cursando">
-  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🤓 JavaScript Completo ES6</strong></li>
   <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🗄️ Banco de Dados SQLite</strong></li>
 </ul>
 
@@ -27,7 +27,7 @@
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>📏 CSS Avançado Posicionamento</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🔠 Tipografia Avançada</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>💅 CSS com SASS</strong></li>
-  <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🧠 UX Design Heurísticas</strong></li>
+  <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🤓 UX Design Heurísticas</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🔌 WordPress REST API</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🛒 WooCommerce como CMS</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🥾 BootStrap 4</strong></li>
