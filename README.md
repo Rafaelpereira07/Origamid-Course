@@ -6,10 +6,11 @@
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🎨 Tailwind CSS</strong></li>
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🧱 HTML e CSS para Iniciantes</strong></li>
   <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🧠 JavaScript Completo ES6</strong></li>
+  <li><img src="./z.readme-assets/completo.svg" alt="Completo" width="12" /> <strong>🗄️ Banco de Dados SQLite</strong></li>
 </ul>
 
 <ul aria-label="Cursando">
-  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🗄️ Banco de Dados SQLite</strong></li>
+  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🔤 TypeScript para Iniciantes</strong></li>
 </ul>
 
 <ul aria-label="Futuros">
@@ -19,7 +20,6 @@
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>👩‍🎨 UI Design Avançado</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>⚛️ React Completo</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🌐 WordPress REST API Dogs</strong></li>
-  <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🔤 TypeScript para Iniciantes</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🔧 React com TypeScript</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🚀 Next.js</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🧬 Redux com React</strong></li>
