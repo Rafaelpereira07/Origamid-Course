@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "./dir",
+    "target": "esnext",
+    "strict": true
+  }
+}
