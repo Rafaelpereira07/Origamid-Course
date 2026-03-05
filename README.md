@@ -11,7 +11,7 @@
 </ul>
 
 <ul aria-label="Cursando">
-  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>⚛️ React Completo</strong></li>
+  <li><img src="./z.readme-assets/cursando.svg" alt="Cursando" width="12" /> <strong>🌿 Back End Node.js</strong></li>
 </ul>
 
 <ul aria-label="Futuros">
@@ -20,6 +20,7 @@
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>📐 CSS Grid Layout</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>👩‍🎨 UI Design Avançado</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🌐 WordPress REST API Dogs</strong></li>
+  <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>⚛️ React Completo</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🔧 React com TypeScript</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🚀 Next.js</strong></li>
   <li><img src="./z.readme-assets/futuro.svg" alt="Futuro" width="12" /> <strong>🧬 Redux com React</strong></li>
